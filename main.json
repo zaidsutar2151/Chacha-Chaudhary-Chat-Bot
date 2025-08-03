@@ -1,0 +1,821 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "How are you?",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "What's up",
+                "how are ya",
+                "heyy",
+                "whatsup",
+                "??? ??? ??"
+            ],
+            "responses": [
+                "Hello!",
+                "Good to see you again!",
+                "Hi there, how can I help?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "name",
+                "your name",
+                "do you have a name",
+                "what are you called",
+                "what is your name",
+                "what should I call you",
+                "whats your name?",
+                "what are you",
+                "who are you",
+                "who is this",
+                "what am i chatting to",
+                "who am i taking to",
+                "what are you"
+            ],
+            "responses": [
+                "You can call me Chacha chaudhry.",
+                "I am  Chacha chaudhry."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "information",
+            "patterns": [
+                "more info",
+                "contact info",
+                "how can i contact you",
+                "Can i get your phone number",
+                "how can i call you",
+                "phone number",
+                "phone no",
+                "call",
+                "website",
+                "give me the link of your website",
+                "give me website of nmcg"
+            ],
+            "responses": [
+                "You can contact at: https://nmcg.nic.in/"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "length",
+            "patterns": [
+                "length of river",
+                "river length",
+                "How long is the ganga river?",
+                "length of ganga river?",
+                "what is the length of ganga river",
+                "what is the length of river"
+            ],
+            "responses": [
+                "The Ganga River is 2,525 kilometers (1,569 miles) long."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "river_origin",
+            "patterns": [
+                "Where does the Ganga River originate?",
+                "Where is the Ganga River's source?",
+                "Ganga River starting point",
+                "Origin of the Ganga River"
+            ],
+            "responses": [
+                "The Ganga River originates in the Gangotri Glacier in the Himalayas, in the Indian state of Uttarakhand."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "river_countries",
+            "patterns": [
+                "Which countries does the Ganga River flow through?",
+                "Ganga passes through which countries?",
+                "How many countries does the Ganga River flow through?"
+            ],
+            "responses": [
+                "The Ganga River flows through India and Bangladesh."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "river_states",
+            "patterns": [
+                "Which states does the Ganga River flow through?",
+                "Ganga passes through which states?",
+                "How many states does the Ganga River flow through?",
+                "ganga river passes through which states"
+            ],
+            "responses": [
+                "The Ganga River passes through Uttarakhand, Uttar Pradesh, Bihar, and West Bengal"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "river_cities",
+            "patterns": [
+                "Which cities does the Ganga River flow through?",
+                "Ganga passes through which cities?",
+                "How many cities does the Ganga River flow through?",
+                "ganga river passes through which cities"
+            ],
+            "responses": [
+                "The Ganga River passes through major cities like Haridwar, Rishikesh, Kanpur, Prayagraj (Allahabad), Mirzapur, Varanasi, Ghazipur, Patna, Bhagalpur, Baharampur, Kolkata"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "river_info",
+            "patterns": [
+                "Short information about the Ganga River",
+                "Tell me about the Ganga River",
+                "What can you tell me about the Ganges?"
+            ],
+            "responses": [
+                "The Ganga River, also known as the Ganges, originates from the Gangotri Glacier in the Indian state of Uttarakhand and flows through several Indian states, including Uttarakhand, Uttar Pradesh, Bihar, and West Bengal, covering a distance of approximately 2,525 kilometers (1,569 miles). It eventually empties into the Bay of Bengal in Bangladesh."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "river_tributaries",
+            "patterns": [
+                "What are the major tributaries of the Ganga River?",
+                "Tell me about the Ganga River's main tributaries",
+                "List the significant tributaries of the Ganges"
+            ],
+            "responses": [
+                "The major tributaries of the Ganga River are the Yamuna, Gomti, Ghaghra, Gandak, Kosi, and Sone rivers."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "river_basin",
+            "patterns": [
+                "What is the Ganga River basin?",
+                "Tell me about the basin of the Ganga River",
+                "Describe the Ganga River drainage area"
+            ],
+            "responses": [
+                "The Ganga River basin is the area of land that drains into the Ganga River. It is one of the largest river basins in the world, covering an area of over 1 million square kilometers (386,000 square miles)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "river_importance",
+            "patterns": [
+                "Why is the Ganga River important to India?",
+                "What is the significance of the Ganga River in India?",
+                "Tell me about the importance of the Ganga in India"
+            ],
+            "responses": [
+                "The Ganga River is the most sacred river in Hinduism. It is also a vital source of water for drinking, irrigation, and transportation."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "river_challenges",
+            "patterns": [
+                "What are the challenges facing the Ganga River?",
+                "Tell me about the problems the Ganga River is facing",
+                "List the issues affecting the Ganga River"
+            ],
+            "responses": [
+                "The Ganga River is facing a number of challenges, including pollution, overfishing, and climate change."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "river_cleanup_efforts",
+            "patterns": [
+                "What efforts are being made to clean up the Ganga River?",
+                "Tell me about initiatives to clean the Ganga River",
+                "List the actions taken to improve the Ganga River's condition"
+            ],
+            "responses": [
+                "There are a number of efforts being made to clean up the Ganga River, including the construction of sewage treatment plants, the launch of public awareness campaigns, and the restoration of wetlands."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "kumbh_mela_significance",
+            "patterns": [
+                "What is the significance of the Kumbh Mela?",
+                "Tell me about the importance of the Kumbh Mela",
+                "Why is the Kumbh Mela significant?"
+            ],
+            "responses": [
+                "The Kumbh Mela is a Hindu pilgrimage that takes place at four different locations in India, including Haridwar on the Ganga River. It is the largest religious gathering in the world, with millions of people attending each year."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "major_cities_on_river",
+            "patterns": [
+                "What are some of the other major cities on the Ganga River?",
+                "Tell me about cities located along the Ganga River",
+                "List major urban centers along the Ganga River"
+            ],
+            "responses": [
+                "Some of the other major cities located on the Ganga River include Allahabad, Varanasi, Patna, and Kolkata."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "river_tourist_attractions",
+            "patterns": [
+                "What are some of the popular tourist attractions on the Ganga River?",
+                "Tell me about tourist spots along the Ganga River",
+                "List famous places for tourists along the Ganga River"
+            ],
+            "responses": [
+                "Some of the popular tourist attractions located on the Ganga River include the ghats (steps leading down to the water) of Varanasi, the Har Ki Pauri ghat in Haridwar, and the Belur Math monastery in Kolkata."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "nearby_tourist_attractions",
+            "patterns": [
+                "What are some of the popular tourist attractions near the Ganga River?",
+                "Tell me about tourist spots near the Ganga River",
+                "List famous places for tourists near the Ganga River"
+            ],
+            "responses": [
+                "Some of the popular tourist attractions located near the Ganga River include the Ranthambore National Park in Sawai Madhopur and the Khajuraho temples in Khajuraho."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "environmental_issues",
+            "patterns": [
+                "What are some of the environmental issues facing the Ganga River?",
+                "Tell me about the environmental concerns regarding the Ganga River",
+                "List the environmental problems the Ganga River is facing"
+            ],
+            "responses": [
+                "Some of the environmental issues facing the Ganga River include pollution, overfishing, and climate change. Pollution from sewage, industrial waste, and agricultural runoff is a major problem for the river. Overfishing is also a concern, as it is depleting fish stocks. Climate change is also a threat to the Ganga River, as it is leading to more extreme weather events such as floods and droughts."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "protect_ganga_environment",
+            "patterns": [
+                "What are some of the things that can be done to protect the Ganga River?",
+                "What measures can be taken to safeguard the Ganga River?",
+                "How can we protect the Ganga River's environment?"
+            ],
+            "responses": [
+                "There are a number of things that can be done to protect the Ganga River and its environment, including reducing pollution, managing water resources sustainably, and protecting wetlands. Reducing pollution from sewage, industrial waste, and agricultural runoff is essential for the health of the river. Managing water resources sustainably is also important, as it will help to ensure that there is enough water for all users. Protecting wetlands is also important, as they play a vital role in filtering water and providing habitat for wildlife."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "best_time_to_visit_ganga",
+            "patterns": [
+                "What is the best time of year to visit the Ganga River?",
+                "When is the ideal time to go to the Ganga River?",
+                "Tell me about the recommended season for visiting the Ganga River."
+            ],
+            "responses": [
+                "The best time of year to visit the Ganga River is during the winter months (October to March), when the weather is mild and pleasant. Summers can be very hot and humid, and monsoons can bring heavy rains and flooding."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "best_city_to_visit_ganga",
+            "patterns": [
+                "Which is the best city to visit along the Ganga River?",
+                "Recommend a city to explore along the Ganga River.",
+                "Tell me about the top city to visit on the Ganga River."
+            ],
+            "responses": [
+                "Varanasi: Varanasi, also known as Banaras, is one of the oldest continuously inhabited cities in the world. It is a highly revered city on the banks of the Ganga River, known for its spirituality and cultural significance."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "cost_of_travel_to_ganga",
+            "patterns": [
+                "How much does it cost to travel to the Ganga River?",
+                "Tell me about the expenses for a trip to the Ganga River.",
+                "What is the budget for visiting the Ganga River?"
+            ],
+            "responses": [
+                "The cost of traveling to the Ganga River will vary depending on your budget and travel style. However, it is possible to travel to the Ganga River on a budget. There are a number of affordable guesthouses and hotels located near the river, and there are also a number of free things to do, such as visiting temples and ghats."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "popular_activities_near_ganga",
+            "patterns": [
+                "What are some of the popular activities to do near the Ganga River?",
+                "Recommend some activities near the Ganga River.",
+                "Tell me about things to do around the Ganga River."
+            ],
+            "responses": [
+                "Some of the popular activities to do near the Ganga River include bathing in the river, visiting temples and ghats, and taking boat rides. There are also a number of other activities available, such as hiking, biking, and shopping."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "local_foods_near_ganga",
+            "patterns": [
+                "What are some of the local foods that I can try near the Ganga River?",
+                "Recommend local dishes near the Ganga River.",
+                "Tell me about the culinary delights around the Ganga River."
+            ],
+            "responses": [
+                "There are a number of delicious local foods that you can try near the Ganga River. Some of the most popular dishes include aloo puri (fried potatoes and bread), chole bhature (chickpeas and fried bread), and dal makhani (lentils and butter)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "safety_tips_for_traveling_to_ganga",
+            "patterns": [
+                "What are some of the safety tips for traveling to the Ganga River?",
+                "Give me safety advice for visiting the Ganga River.",
+                "How can I stay safe while traveling to the Ganga River?"
+            ],
+            "responses": [
+                "There are a few safety tips that you should keep in mind when traveling to the Ganga River. First, be aware of your surroundings and avoid walking alone at night. Second, be careful when swimming in the river, as there are currents and strong tides. Third, be respectful of local customs and traditions."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "festivals_near_ganga",
+            "patterns": [
+                "What are some of the festivals that are celebrated near the Ganga River?",
+                "Tell me about festivals near the Ganga River.",
+                "Which festivals are popular around the Ganga River?",
+                "What are the different types of cultural fests?",
+                "Tell me about the various cultural festivals.",
+                "List different types of cultural events."
+            ],
+            "responses": [
+                "There are a number of festivals that are celebrated near the Ganga River. Some of the most popular festivals include the Kumbh Mela, the Chhath Puja, and the Diwali festival."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "cultural_attractions_near_ganga",
+            "patterns": [
+                "What are some of the cultural attractions located near the Ganga River?",
+                "Tell me about cultural sites near the Ganga River.",
+                "Which cultural attractions should I visit around the Ganga River?"
+            ],
+            "responses": [
+                "There are a number of cultural attractions located near the Ganga River. Some of the most popular attractions include the Sarnath Buddhist complex in Varanasi, the Humayun's Tomb in Delhi, and the Qutub Minar in Delhi."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "benefits_of_attending_cultural_fest",
+            "patterns": [
+                "What are the benefits of attending a cultural fest?",
+                "Tell me the advantages of going to cultural festivals.",
+                "Why should I attend a cultural event?"
+            ],
+            "responses": [
+                "There are many benefits to attending a cultural fest, including:\n\n* Learning about different cultures and traditions\n* Experiencing new art forms and performances\n* Meeting new people and making friends\n* Trying new foods and drinks\n* Discovering new interests and hobbies\n* Having a fun and memorable time"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "preparing_for_attending_cultural_fest",
+            "patterns": [
+                "How can I prepare for attending a cultural fest?",
+                "Give me tips for getting ready for a cultural festival.",
+                "What should I do before going to a cultural event?"
+            ],
+            "responses": [
+                "Here are some tips on how to prepare for attending a cultural fest:\n\n* Research the fest beforehand to learn about the different events and activities that will be offered.\n* Purchase tickets in advance, especially if the fest is popular.\n* Dress comfortably and in layers, as you may be doing a lot of walking and standing.\n* Bring sunscreen, sunglasses, and a hat to protect yourself from the sun.\n* Bring a water bottle and snacks to stay hydrated and energized.\n* Be open-minded and willing to try new things.\n* Have fun!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "getting_involved_in_cultural_fest",
+            "patterns": [
+                "What are some of the ways to get involved in a cultural fest?",
+                "Tell me how I can participate in cultural festivals.",
+                "How can I contribute to a cultural event?"
+            ],
+            "responses": [
+                "There are many ways to get involved in a cultural fest, including:\n\n* Volunteering to help with the organization and running of the fest.\n* Performing or exhibiting your own work at the fest.\n* Attending the fest and participating in the different events and activities.\n* Promoting the fest to your friends and family.\n* Donating to the fest to help support its mission."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Challenges_of_Organizing_a_Cultural_Fest",
+            "patterns": [
+                "What are some of the challenges of organizing a cultural fest?"
+            ],
+            "responses": [
+                "Organizing a cultural fest can be challenging, but it is also a rewarding experience. Some of the challenges that organizers may face include:\nSecuring funding and sponsorships.\nBooking venues and performers.\nObtaining the necessary permits and licenses.\nPromoting the fest and attracting attendees.\nEnsuring the safety and security of attendees and performers.\nCleaning up after the fest."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Tips for Organizing a Successful Cultural Fest",
+            "patterns": [
+                "What are some of the tips for organizing a successful cultural fest?"
+            ],
+            "responses": [
+                "Here are some tips for organizing a successful cultural fest.\nStart planning early and give yourself plenty of time to complete all of the necessary tasks.\nCreate a budget and track your expenses carefully.\nAssemble a team of dedicated volunteers.\nPromote the fest early and often.\nBe flexible and adaptable, as things don't always go according to plan.Have fun!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "History of the Ganga River",
+            "patterns": [
+                "Tell me about the history of the Ganga River.",
+                "What is the historical significance of the Ganga River?",
+                "Ganga River history",
+                "what is the history of this river"
+            ],
+            "responses": [
+                "The Ganga River, or Ganges, is historically and culturally vital in India. Mentioned in ancient texts, it's crucial for agriculture, transportation, and worship. Cities like Varanasi, Haridwar, and Allahabad are cultural and religious hubs along its banks. Efforts to preserve and clean the Ganga continue."
+            ],
+            "context_set": ""
+        },
+
+
+
+
+
+
+
+
+        {
+            "tag": "Fertility of soil",
+            "patterns": [
+                "The soil near Ganga river is fertilie or not?",
+                "Does the soil near Ganga river suitable for agriculture?",
+                "The soil near ganga has high fertility rate or not?",
+                "Is there soil pollution occured near the banks of Ganga river?"
+
+            ],
+            "responses": [
+                " Soil fertility can vary significantly from one location to another.Because of alluvial deposition,nutrients can be replenished in the soil and make it suitable for agriculture.While at some places the soil cannot be suitable for agriculture"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Soil type.",
+            "patterns": [
+                "Which type of soil is present at the banks of river ganga?",
+                "What type of soil is present near ganga river?"
+            ],
+            "responses": [
+                "The type of soil found near the Ganga River is primarily alluvial soil. Alluvial soil is a type of soil that is formed by the deposition of sediments carried by rivers and streams. This soil is generally fertile and well-suited for agriculture due to its rich nutrient content and good drainage properties."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "About Alluvial soil",
+            "patterns": [
+                "What is alluvial soil?",
+                "Give information about alluvial soil.",
+                "What types of minerals the alluvial soil contains?",
+                "Explain about alluvial soil?"
+            ],
+            "responses": [
+                "Alluvial soil is typically composed of a mixture of sand, silt, clay, and organic matter, making it suitable for a wide range of crops. The periodic flooding of the Ganga River leads to the deposition of silt and organic material along its banks, contributing to the fertility of the soil in the region."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Industry waste areas",
+            "patterns": [
+                "Give the areas which contains large industries connected to Ganga river?",
+                "Which areas of Ganga has large industries ",
+                "Give the names of cities which has large industries near Ganga.",
+                "Tell me about the industry in Ganga.",
+                "What type of industries are present near ganga river?"
+            ],
+            "responses": [  
+              "Kanpur, Prayagraj, Varanasi, and Patna are major industrial cities on the banks of the Ganga River. These cities are home to a variety of industries, including tanneries, chemical plants, textile mills, paper mills, distilleries, sugar mills, and food processing plants. The industrial pollution from these cities is a major threat to the health of the river and the people who rely on it"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Water cleanliness",
+            "patterns": [
+                "Is ganga river water clean or not?",
+                "Ganga river water is safe to drink?",
+                "Tell me about the cleanliness of water in ganga.",
+                "Tell me about type of water in ganga river."
+            ],
+            "responses": [
+                "The Ganga River is still polluted, but it is cleaner than it was a few years ago. The main sources of pollution are sewage and industrial effluent. The Indian government is taking steps to clean up the river, but it will take time and effort."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Water for Agriculture",
+            "patterns": [
+                "Ganga river water is suitable for agriculture or not?",
+                "Ganga river water is safe for agriculture or not?",
+                "Can we use ganga river for agriculture purpose?"
+
+            ],
+            "responses": [
+                "Ganga River water is generally suitable for agriculture, but it is important to test the water first. This is because the water quality can vary depending on the location and the time of year. The water can be polluted with harmful bacteria and parasites, as well as heavy metals and other toxic chemicals."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Ganga Water minerals",
+            "patterns": [
+                "What type of minerals are present in ganga?",
+                "Give me names of minerals present in ganga river?",
+                "Which types of minerals are present in ganga river water?"
+            ],
+            "responses": [
+                " The Ganga River is rich in a variety of minerals, including:Calcium,Magnesium,Potassium,Sodium,Iron,Manganese,Zinc,Copper,Boron,Molybdenum,Chlorine,Sulfate"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Harmful material in ganga river",
+            "patterns": [
+                "Which type of harmful materials are present in ganga river?",
+                "What are the harmful materials present in gamga river?"
+            ],
+            "responses": [
+                "The Ganga River is polluted with a variety of harmful materials, including sewage, industrial effluent, agricultural runoff, religious waste, and microplastics. This pollution has a devastating impact on human health and the environment. The Indian government is taking steps to clean up the river, but it is a complex and challenging task."
+            ],
+            "context_set": ""
+        },
+
+
+        
+
+
+
+
+        {
+            "tag": "executive_committee",
+            "patterns": [
+                "How does the Executive Committee of NMCG function, and what is its authority in approving projects?"
+            ],
+            "responses": [
+                "The Executive Committee of NMCG, headed by the Director General, is authorized to approve projects up to Rs. 1000 crore. It plays a key role in project approval and implementation within the mission."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "spmg_role",
+            "patterns": [
+                "What is the role of State Programme Management Groups (SPMGs), and how do they contribute to the mission's goals at the state level?"
+            ],
+            "responses": [
+                "State Programme Management Groups (SPMGs) are headed by senior officers of the concerned states and act as the implementing arms of State Ganga Committees. They facilitate the execution of Ganga rejuvenation projects at the state level."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "institutional_structure_evolution",
+            "patterns": [
+                "How has the institutional structure evolved over time with respect to the management and rejuvenation of the Ganga River?"
+            ],
+            "responses": [
+                "The institutional structure has evolved with the dissolution of NGRBA and the establishment of the National Ganga Council. This restructuring aims to bring all stakeholders together in a more integrated approach to the task of Ganga cleaning and rejuvenation."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "legal_admin_frameworks",
+            "patterns": [
+                "What legal and administrative frameworks are in place to support the efforts of the National Mission for Clean Ganga, and have there been any recent amendments to these frameworks?"
+            ],
+            "responses": [
+                "The legal framework includes the Environment (Protection) Act, 1986. Recent amendments, such as the 'Amendment Order' of 2nd September 2019, have contributed to the restructuring and strengthening of the mission."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "district_state_committees_responsibilities",
+            "patterns": [
+                "Can you explain the specific responsibilities of the District Ganga Committees and State Ganga Committees in the Ganga rejuvenation process?"
+            ],
+            "responses": [
+                "District Ganga Committees are responsible for addressing Ganga-related issues at the district level. State Ganga Committees focus on state-level efforts and coordination, working in collaboration with the National Mission for Clean Ganga to achieve the mission's objectives."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "namami_gange_programme",
+            "patterns": [
+                "What is the Namami Gange Programme, and what are its primary objectives?"
+            ],
+            "responses": [
+                "The Namami Gange Programme is an Integrated Conservation Mission aimed at the effective abatement of pollution, conservation, and rejuvenation of the National River Ganga. Its primary objectives are to address pollution, develop riverfronts, clean the river's surface, promote biodiversity, afforestation, public awareness, monitor industrial effluents, and develop Ganga Grams."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "namami_gange_pillars",
+            "patterns": [
+                "What are the main pillars of the Namami Gange Programme, and how do they contribute to the mission's goals?"
+            ],
+            "responses": [
+                "The main pillars of the Namami Gange Programme include sewerage treatment infrastructure, river-front development, river-surface cleaning, biodiversity conservation, afforestation, public awareness, industrial effluent monitoring, and Ganga Grams. These pillars are essential components of the mission to rejuvenate the Ganga River."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "namami_gange_implementation_structure",
+            "patterns": [
+                "How has the implementation of the Namami Gange Programme been structured in terms of Entry-Level Activities, Medium-Term Activities, and Long-Term Activities?"
+            ],
+            "responses": [
+                "The implementation of the program is divided into Entry-Level Activities (for immediate impact), Medium-Term Activities (to be completed within 5 years), and Long-Term Activities (to be completed within 10 years). This phased approach allows for a comprehensive and sustainable rejuvenation of the Ganga River."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "sewerage_treatment_capacity",
+            "patterns": [
+                "What is the status of creating sewerage treatment capacity under the Namami Gange Programme, and in which states are these projects being implemented?"
+            ],
+            "responses": [
+                "There are 48 sewage management projects under implementation, and 99 sewage projects have been completed in states such as Uttarakhand, Uttar Pradesh, Bihar, Jharkhand, West Bengal, Delhi, Himachal Pradesh, Haryana, and Rajasthan. An additional 27 sewage projects are under tendering, and 8 new sewage projects have been launched."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "aquatic_biodiversity_conservation",
+            "patterns": [
+                "How is the Namami Gange Programme contributing to the conservation and restoration of aquatic biodiversity in the Ganga River?"
+            ],
+            "responses": [
+                "The program involves organizations such as the Wildlife Institute of India (WII), Central Inland Fisheries Research Institute (CIFRI), and the Uttar Pradesh State Forest Department to develop science-based aquatic species restoration plans. Rescue and rehabilitation centers have been established, cadre of volunteers (Ganga Praharis) developed, and ecosystem services of the Ganga River identified for conservation."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "afforestation_efforts",
+            "patterns": [
+                "Could you explain the afforestation efforts under the Namami Gange Programme and their purpose?"
+            ],
+            "responses": [
+                "Afforestation is a major component of Ganga rejuvenation. The Forest Research Institute (FRI) prepared a Detailed Project Report for afforestation in Ganga river bank states, covering an estimated area of 1,34,106 hectares. The aim is to enhance forest productivity and diversity to contribute to holistic Ganga conservation, including improving river flow."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "public_awareness",
+            "patterns": [
+                "How has public awareness been promoted under the Namami Gange Programme, and what measures have been taken for community participation?"
+            ],
+            "responses": [
+                "The program has organized a series of activities such as events, workshops, seminars, and campaigns to engage the public and encourage community participation. Awareness activities, rallies, exhibitions, and media campaigns, including a Gange Theme song, have been used to increase visibility and outreach."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "industrial_effluents_monitoring",
+            "patterns": [
+                "What is the approach to monitoring and regulating industrial effluents under the Namami Gange Programme, and what has been the progress in this regard?"
+            ],
+            "responses": [
+                "The program monitors Grossly Polluting Industries (GPIs) for compliance with environmental norms through regular and surprise inspections. Action has been taken against non-complying GPIs, and Online Continuous Effluent Monitoring Stations (OCEMS) connectivity has been established at many GPIs."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "ganga_gram_significance",
+            "patterns": [
+                "What is the significance of the 'Ganga Gram' component of the program, and how many Gram Panchayats have been identified for its implementation?"
+            ],
+            "responses": [
+                "The 'Ganga Gram' component focuses on Gram Panchayats along the Ganga's banks. It involves the construction of toilets in these areas. A total of 1,674 Gram Panchayats have been identified in the five Ganga basin states for this purpose."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "international_collaborations",
+            "patterns": [
+                "How has the Namami Gange Programme engaged with international countries and what collaborations have been established for Ganga rejuvenation?"
+            ],
+            "responses": [
+                "The program has attracted interest from countries like Australia, the United Kingdom, Germany, Finland, and Israel, which have expertise in river rejuvenation. Memorandums of Understanding (MoUs) have been signed with various Central Ministries to synergize government schemes and leverage international knowledge and resources for Ganga rejuvenation."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "nmcg_primary_objectives",
+            "patterns": [
+                "What are the two primary objectives of the National Mission for Clean Ganga (NMCG)?"
+            ],
+            "responses": [
+                "The two primary objectives of NMCG are to ensure effective pollution abatement and the rejuvenation of the Ganga River through a river basin approach, and to maintain minimum ecological flows to ensure water quality and environmentally sustainable development."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "nmcg_river_basin_approach",
+            "patterns": [
+                "Why is it important for NMCG to adopt a river basin approach in its efforts to clean and rejuvenate the Ganga River?"
+            ],
+            "responses": [
+                "Adopting a river basin approach allows NMCG to promote inter-sectoral coordination for comprehensive planning and management, ensuring a more holistic and effective strategy for Ganga conservation."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "nmcg_sustainable_development",
+            "patterns": [
+                "How does NMCG plan to balance the need for sustainable development with the goal of maintaining the minimum ecological flows in the Ganga River?"
+            ],
+            "responses": [
+                "NMCG aims to strike a balance by promoting environmentally sustainable development practices and ensuring that ecological flows are maintained to safeguard water quality and the river's health."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "nmcg_ngrba_role",
+            "patterns": [
+                "What is the role of the National Ganga River Basin Authority (NGRBA) in relation to the objectives of NMCG?"
+            ],
+            "responses": [
+                "The NGRBA provided the mandate and framework for NMCG, enabling it to work towards the objectives of pollution abatement, rejuvenation, and maintaining ecological flows in the Ganga River."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "nmcg_long_term_sustainability",
+            "patterns": [
+                "How does NMCG plan to ensure the long-term sustainability of the Ganga River's health and water quality while pursuing its objectives?"
+            ],
+            "responses": [
+                "NMCG employs a comprehensive and coordinated approach, promotes sustainable practices, and emphasizes the importance of maintaining minimum ecological flows to protect the Ganga River's health and water quality for future generations."
+            ],
+            "context_set": ""
+        },
+
+
+
+        {
+            "tag": "chacha chaudhary",
+            "patterns": [
+                "Are you chacha chaudhary",
+                "who is chacha chaudhary"
+            ],
+            "responses": [
+                "I am  Chacha chaudhry."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "create",
+            "patterns": [
+                "Who is your creator?",
+                "By whom were you created?",
+                "What individual brought you into existence?",
+                "Who is responsible for your creation?",
+                "Who designed and developed you?",
+                "Who brought you into being?",
+                "Who is the mind behind your creation?",
+                "Who is the mastermind behind your existence?",
+                "From whom did you originate?",
+                "Who gave you life as a chat bot?",
+                "Can you introduce yourself?",
+                "Tell me about yourself.",
+                "Introduce yourself, please.",
+                "Who are you?",
+                "Share a bit about who you are.",
+                "Provide an introduction about yourself.",
+                "Give me some information about yourself.",
+                "How would you describe yourself?",
+                "What can you tell me about your identity?",
+                "Could you give me an introduction of who you are?",
+                "who created you?",
+                "who is your developer?"
+            ],
+            "responses": [
+                "I am chacha chaudhary.An AI bot developed by Md Zaid Sutar"
+            ],
+            "context_set": ""
+        },
+
+
+
+        {
+            "tag": "",
+            "patterns": [
+                "",
+                ""
+            ],
+            "responses": [
+                ""
+            ],
+            "context_set": ""
+        }
+    ]
+}
